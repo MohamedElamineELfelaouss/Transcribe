@@ -28,7 +28,7 @@ if not using Docker:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/marouane53/transcribe.git
+git clone https://github.com/MohamedElamineELfelaouss/Transcribe.git
 ```
 ### Running with Docker (Recommended)
 
@@ -90,18 +90,11 @@ Note: The `.env` file is where your sensitive information such as API keys will 
 - Open your `.env` file and fill in your Wit.ai API keys next to the corresponding language variables (e.g., `WIT_API_KEY_ENGLISH`, `WIT_API_KEY_ARABIC`, etc.).
 
 
-## Windows Release
-
-For Windows users, a pre-packaged release is available that includes the necessary executable files (ffmpeg and yt-dlp) along with the Python script. You can download the release from [here](https://github.com/marouane53/transcribe/releases/download/windows_py/Transcribe.zip).
-
-The release version eliminates the need for installing ffmpeg and yt-dlp separately, as the executable files are included in the package. Simply extract the ZIP file and run the script directly.
-
-
 ## Usage
 
 1. Run the script:
    python transcribe.py
-2. Choose whether you want to transcribe a YouTube video or a local file.
+2. Choose whether you want to transcribe a YouTube or any social media app video or a local file.
 
 3. Follow the prompts to provide the necessary information (YouTube link or file path, language sign).
 
